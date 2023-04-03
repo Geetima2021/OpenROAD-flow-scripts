@@ -2,9 +2,11 @@
 `include "includes/sp_verilog.vh" //_\SV
     //Included URL: "https://raw.githubusercontent.com/shivanishah269/risc-v-core/master/FPGA_Implementation/riscv_shell_lib.tlv"
     //Included URL: "https://raw.githubusercontent.com/stevehoover/warp-v_includes/2d6d36baa4d2bc62321f982f78c8fe1456641a43/risc-v_defs.tlv"
+
 `include "includes/sandpiper.vh"
 `include "clk_gate.v"
-   module rvmyth_core(input clk, input reset, output reg [7:0] out);
+
+module rvmyth_core(input clk, input reset, output reg [7:0] out);
 `include "rvmyth_test_gen.v"
 generate //_\TLV
 // /====================\

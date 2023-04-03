@@ -30,9 +30,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 `ifndef SANDPIPER_VH
 `define SANDPIPER_VH
 
-
 // Note, these have no SP prefix, so collisions are possible.
-     
 
 `ifdef WHEN
    // Make sure user definition does not collide.

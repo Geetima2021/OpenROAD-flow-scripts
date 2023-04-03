@@ -6,9 +6,6 @@
 `include "sandpiper_gen.vh"
 
 
-
-
-
 //
 // Signals declared top-level.
 //
@@ -20,7 +17,6 @@ logic [LFSR_WIDTH-1:0] DEFAULT_lfsr_a1,
 // For |default$reset.
 logic DEFAULT_reset_a0,
       DEFAULT_reset_a1;
-
 
 
 generate
