@@ -75,6 +75,7 @@
 # DESIGN_CONFIG=./designs/asap7/sha3/config.mk
 # DESIGN_CONFIG=./designs/asap7/riscv32i/config.mk
 # DESIGN_CONFIG=./designs/asap7/swerv_wrapper/config.mk
+DESIGN_CONFIG=./designs/asap7/rvmyth/config.mk
 
 # DESIGN_CONFIG=./designs/intel22/gcd/config.mk
 # DESIGN_CONFIG=./designs/intel22/aes/config.mk
@@ -82,7 +83,7 @@
 # DESIGN_CONFIG=./designs/gf180/aes/config.mk
 #
 # Default design
-DESIGN_CONFIG ?= ./designs/nangate45/gcd/config.mk
+#DESIGN_CONFIG ?= ./designs/nangate45/gcd/config.mk
 
 # If we are running headless use offscreen rendering for save_image
 ifndef DISPLAY
